@@ -1,6 +1,21 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/__header/page__header.css");
+@import url("../blocks/page/__footer/page__footer.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__lang/header__lang.css");
+@import url("../blocks/header/__lang-link/header__lang-link.css");
+
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+
 /* TODO: Вспомогательные границы для отладки */
 div, img, h1, h2, h3, h4, p, a, ul, li, article, footer, section {
   border: 1px solid red;
