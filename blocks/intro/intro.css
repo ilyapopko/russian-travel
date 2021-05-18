@@ -2,23 +2,33 @@
   max-width: 984px;
   padding-bottom: 92px;
 }
+.intro__container{
+  margin: 0 auto;
+}
 
 @media screen and (max-width: 1279px) {
   .intro {
-    max-width: 928px;
+    /* max-width: 928px; */
+    padding: 0 48px 92px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    max-width: 720px;
-    padding-bottom: 88px;
+    /* max-width: 720px; */
+    /* padding-bottom: 88px; */
+    padding: 0 24px 88px;
+    /* margin: 0 auto; */
+  }
+  .intro__container{
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    max-width: 288px;
-    padding-bottom: 64px;
+    /* max-width: 288px;
+    padding-bottom: 64px; */
+    padding: 0 16px 64px;
   }
 }
