@@ -2,10 +2,8 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-
   display: grid;
   grid-template-columns: repeat(2, min-content);
   grid-column-gap: 18px;
   align-items: center;
-
 }
