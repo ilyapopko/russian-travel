@@ -1,38 +1,24 @@
 .place__title {
-  /* grid-column: 1;
-  grid-row: 1; */
   max-width: 460px;
   font-size: 72px;
   font-weight: 900;
-  line-height: 1.05556;
+  line-height: 106%;
   margin: 0;
   padding: 0;
 
 }
 
-/* @media screen and (max-width: 1279px) {
-  .places {
-    max-width: 928px;
-  }
-}*/
-
 @media screen and (max-width: 1023px) {
   .place__title {
     font-size: 42px;
-    line-height: 1.09524;
-      /* max-width: 720px;
-    padding-bottom: 88px; */
-
+    line-height: 110%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__title {
     font-size: 32px;
-    line-height: 1.09375;
-    /* grid-template-columns: 1fr; */
-    /* max-width: 288px;
-    padding-bottom: 64px; */
+    line-height: 109%;
     max-width: 100%;
     padding: 0 16px;
   }
