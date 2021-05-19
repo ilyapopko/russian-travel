@@ -15,4 +15,4 @@
 ## Планы по доработке:
 * Пока отсутствуют
 ## Страница на GitHub Pages:
-* [Ссылка на страницу]()
+* [Ссылка на страницу](https://ilyapopko.github.io/russian-travel/index.html)
