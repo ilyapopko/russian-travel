@@ -15,7 +15,7 @@
   src: url("Inter-Black.woff2") format("woff2"),
     url("Inter-Black.woff") format("woff");
 }
-
+/*сорри с первого раза не вкурил. Визуально смотрится очень похоже*/
 @font-face {
   font-family: "Inter";
   font-display: swap;

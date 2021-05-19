@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 460px, 1fr;
+  grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
   padding-bottom: 80px;
 }
@@ -13,12 +13,14 @@
 
 @media screen and (max-width: 1279px) {
   .place {
+    grid-template-columns: 440px 1fr;
     grid-column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
+    grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;
     padding-bottom: 73px;
   }
