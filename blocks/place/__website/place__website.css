@@ -1,6 +1,5 @@
 .place__website {
   grid-column: 2;
-  height: min-content;
   margin-top: auto;
   padding: 0;
 }

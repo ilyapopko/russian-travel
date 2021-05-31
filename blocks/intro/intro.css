@@ -2,9 +2,6 @@
   max-width: 984px;
   padding-bottom: 92px;
 }
-.intro__container{
-  margin: 0;
-}
 
 @media screen and (max-width: 1279px) {
   .intro {
