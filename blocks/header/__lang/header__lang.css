@@ -1,9 +1,9 @@
-.header__lang {
-  list-style-type: none;
+.header__lang{
   margin: 0;
   padding: 0;
+  list-style-type: none;
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(2, min-content);
   grid-column-gap: 18px;
-  align-items: center;
 }

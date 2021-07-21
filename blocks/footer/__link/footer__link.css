@@ -2,8 +2,7 @@
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  line-height: 112%;
-  padding: 0;
+  line-height: 18px;
 }
 
 .footer__link:hover {
@@ -13,6 +12,6 @@
 @media screen and (max-width: 660px) {
   .footer__link {
     font-size: 24px;
-    line-height: 100%;
+    line-height: 24px;
   }
 }

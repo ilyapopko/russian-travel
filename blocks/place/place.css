@@ -1,13 +1,7 @@
 .place {
-  width: 100%;
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
-  padding-bottom: 80px;
-}
-
-.place:last-child {
-  padding-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -21,7 +15,6 @@
   .place {
     grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;
-    padding-bottom: 73px;
   }
 }
 
@@ -29,6 +22,6 @@
   .place {
     grid-template-columns: 1fr;
     grid-row-gap: 32px;
-    padding-bottom: 50px;
   }
 }
+

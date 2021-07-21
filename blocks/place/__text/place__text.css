@@ -1,0 +1,11 @@
+.place__text{
+  display: grid;
+  grid-row-gap: 26px;
+  grid-auto-rows: min-content;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    padding: 0 16px;
+  }
+}
